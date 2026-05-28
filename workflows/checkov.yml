@@ -1,0 +1,3 @@
+      - name: Run Checkov on Terraform files
+        run: |
+          checkov -d ${{ inputs.path }} --soft-fail
